@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/view_flipper"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/slide_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:tag="@string/slide_1_tts">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/slide_1_title"
+            android:textSize="48sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/slide_1_start_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/slide_1_btn"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/slide_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="example"
+        android:tag="@string/slide_2_tts"
+        android:src="@drawable/kebby_face_neutral"
+        />
+
+    <ImageView
+        android:id="@+id/slide_3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="example"
+        android:tag="@string/slide_3_tts"
+        android:src="@drawable/cat"
+        />
+
+    <ImageView
+        android:id="@+id/slide_4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="example"
+        android:tag="@string/slide_4_tts"
+        android:src="@drawable/kebby_face_neutral"
+        />
+
+</ViewFlipper>

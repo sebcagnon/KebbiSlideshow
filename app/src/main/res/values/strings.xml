@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="slide_1_title">始めましょう</string>
+    <string name="slide_1_tts">スタートボタンを押してください/666_BA_RHandR03</string>
+    <string name="slide_1_btn">スタート</string>
+    <string name="slide_2_tts">初めまして、ケビーです。/666_RE_Bow</string>
+    <string name="slide_3_tts">こちらをみてください。可愛いでしょう！/666_TA_TalkRL</string>
+    <string name="slide_4_tts">どうでしたか？/666_TA_YoL</string>
+</resources>
